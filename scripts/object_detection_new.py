@@ -170,6 +170,7 @@ if __name__ == "__main__":
     o_index = 2
     p_index = 3    
 
+  print(interpreter.get_tensor(output_details[p_index]['index']))
   predictions = np.squeeze( \
                   interpreter.get_tensor(output_details[p_index]['index']))
   output_classes = np.squeeze( \
