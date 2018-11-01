@@ -15,7 +15,7 @@ python3 object_detection/export_tflite_ssd_graph.py \
 --output_directory=$OUTPUT_DIR \
 --add_postprocessing_op=true
 
-#cd /home/irina/tensorflow
+cd /home/irina/tensorflow
 #bazel build tensorflow/contrib/lite/toco:toco
 #echo "BUILDED"
 
